@@ -1,0 +1,9 @@
+models
+data
+.idea
+.ipynb_checkpoints
+__pycache__
+output
+venv
+.pytest_cache
+tests/nonautomated
