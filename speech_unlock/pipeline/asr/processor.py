@@ -3,8 +3,8 @@
 from abc import abstractmethod
 from typing import List
 
-from pipeline.abstract.audio import Audio
-from pipeline.abstract.processors import IntervalProcessor
+from speech_unlock.pipeline.abstract.audio import Audio
+from speech_unlock.pipeline.abstract.processors import IntervalProcessor
 
 
 class AbstractASRProcessor(IntervalProcessor):

@@ -18,18 +18,15 @@ function onSubmit(str){
 
 ReactDOM.render(
   <React.StrictMode>
-    <Annotate blocks={
-            [
-                ["istället", "i stället"],
-                ["ska juridik och beteendevetenskap", "ska juridik och beteendevetenskap"],
-                ["ingår", "inga"],
-                ["i utbildningen på polishhögskolan", "i utbildningen på polishhögskolan"]
-            ]
-        }
-              onSubmit={onSubmit}
-              blockEndTimes={[
-                  1.6,4.1,4.5,5.9
-              ]}
+    <Annotate
+        transcription={[
+                 "istället ska juridik och beteendevetenskap inga i utbildningen på polishhögskolan"
+        ]}
+        audioFilePath={"/file_7.wav"}
+        onSubmit={onSubmit}
+        blockEndTimes={[
+            1.6,4.1,4.5,5.9
+        ]}
     />
   </React.StrictMode>,
   document.getElementById('root')
