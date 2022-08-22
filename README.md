@@ -6,9 +6,9 @@ annotate their speech data developed by [TMH](https://www.kth.se/is/tmh)
 
 - Breath and silence detection
 - Speaker diarization
-- Overlap detection
-- Laughter detection
-- Automatic Speech recognition (ASR)
+- Overlap detection (TODO)
+- Laughter detection (TODO)
+- Automatic Speech recognition (ASR) (TODO)
 
 Speech Unlock offers pre-trained models as well as training capabilities 
 for them
